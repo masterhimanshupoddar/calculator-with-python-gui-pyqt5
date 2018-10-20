@@ -1,3 +1,4 @@
+#Making a GUI CALCULATOR
 import sys
 from math import sqrt
 from PyQt5.QtGui import *
@@ -11,7 +12,7 @@ sumAll = 0.0
 operator = ""
 
 opVar = False
-
+print("CALC")
 class Calc(QMainWindow):
 
     def __init__(self):
